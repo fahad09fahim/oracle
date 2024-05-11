@@ -69,8 +69,9 @@ const Header = () => {
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
+        <Button className="hidden lg:flex  animate-pulse hover:animate-none" href="#login">
+        
+          <span>Sign in</span>
         </Button>
         <Button onClick={toggle} className="ml-auto lg:hidden px-3">
           <MenuSvg open={open} />
