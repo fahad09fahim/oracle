@@ -1,4 +1,4 @@
-import { check, service1, service2 } from "../assets";
+import { check, service1, service2, service3 } from "../assets";
 import { oracleServices, oracleServicesIcons } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
@@ -87,9 +87,18 @@ const Services = () => {
                   ))}
                 </ul>
                 {/* inner image  */}
-                <div>
-
+                <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+                  <img
+                    src={service3}
+                    className="w-full h-full object-cover"
+                    width={520}
+                    height={400}
+                    alt=""
+                  />
+                  <VideoChatMessage />
+                  <VideoBar />
                 </div>
+                <Gradient />
               </div>
             </div>
           </div>
