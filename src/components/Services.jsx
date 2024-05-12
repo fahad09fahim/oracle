@@ -1,5 +1,5 @@
 import { check, service1, service2 } from "../assets";
-import { oracleServices } from "../constants";
+import { oracleServices, oracleServicesIcons } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 import {
@@ -71,12 +71,25 @@ const Services = () => {
               <div className="py-12 px-4 xl:px-8">
                 <h2 className="h2 mb-4">Video generation</h2>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world&’s most powerful AI photo and video art generation
+                  The world’s most powerful AI photo and video art generation
                   engine. What will you create?
                 </p>
-                <ul className="flex">
-                    
+                <ul className="flex items-center justify-between">
+                  {oracleServicesIcons.map((item, index) => (
+                    <li
+                      className={`flex justify-center items-center 5 bg-n-9/15 hover:bg-conic-gradient p-0.5 rounded-2xl h-[3rem] w-[3rem] md:h-[4.5rem] md:w-[4.5rem] `}
+                      key={index}
+                    >
+                      <div className="flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]">
+                        <img src={item} alt="" />
+                      </div>
+                    </li>
+                  ))}
                 </ul>
+                {/* inner image  */}
+                <div>
+
+                </div>
               </div>
             </div>
           </div>
