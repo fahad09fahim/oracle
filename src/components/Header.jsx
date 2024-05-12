@@ -47,7 +47,7 @@ const Header = () => {
                 href={link.url}
                 onClick={handleClick}
                 className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
-                  link.onlyMobile ? "lg:hidden" : " "
+                  link.onlyMobile ? "lg:hidden" : ""
                 }
                 px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   link.url === pathName.hash

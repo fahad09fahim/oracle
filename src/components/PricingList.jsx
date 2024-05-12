@@ -9,7 +9,7 @@ const PricingList = () => {
         <div
           id={price.id}
           key={price.id}
-          className="w-[19rem] max-lg:w-full h-full p-6 bg-n-6 border border-n-5 rounded-[2rem] lg:w-auto even:py-14 odd:py-8  odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
+          className="w-[19rem] max-lg:w-full h-full p-6 bg-n-6 border border-n-5 rounded-[2rem] lg:w-auto even:py-14 odd:py-8  odd:my-6 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
         >
           <h4 className="h4 mb-4">{price.title}</h4>
           <p className="body-2 min-h-[4rem] mb-3 text-n-4">

@@ -77,7 +77,7 @@ const Services = () => {
                 <ul className="flex items-center justify-between">
                   {oracleServicesIcons.map((item, index) => (
                     <li
-                      className={`flex justify-center items-center 5 bg-n-9/15 hover:bg-conic-gradient p-0.5 rounded-2xl h-[3rem] w-[3rem] md:h-[4.5rem] md:w-[4.5rem] `}
+                      className={`flex justify-center items-center 5 bg-n-9/15 hover:bg-conic-gradient p-0.5 rounded-2xl h-[3rem] w-[3rem] md:h-[4.5rem] md:w-[4.5rem]  `}
                       key={index}
                     >
                       <div className="flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]">
@@ -87,7 +87,7 @@ const Services = () => {
                   ))}
                 </ul>
                 {/* inner image  */}
-                <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+                <div className="relative my-2 h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                   <img
                     src={service3}
                     className="w-full h-full object-cover"

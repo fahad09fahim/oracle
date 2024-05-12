@@ -11,6 +11,7 @@ import SectionSvg from './../assets/svg/SectionSvg';
 }) => {
   return (
     <div
+    id={id}
       className={`
         relative 
         ${
